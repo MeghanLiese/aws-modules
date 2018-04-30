@@ -6,7 +6,7 @@ resource "aws_vpc" "demo_vpc" {
   cidr_block = "${var.vpc_cidr_block}"
 
   tags {
-    Version = "0.1.0"
+    Name = "fp_demo_subnet"
   }
 }
 
